@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".LogoActivity">
+
+  <ImageView
+      android:id="@+id/imagenLogo"
+      android:layout_width="214dp"
+      android:layout_height="287dp"
+      android:layout_marginStart="100dp"
+      android:layout_marginTop="80dp"
+      android:layout_marginEnd="100dp"
+      android:layout_marginBottom="80dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/logo" />
+
+  <TextView
+      android:id="@+id/mejores"
+      android:layout_width="165dp"
+      android:layout_height="0dp"
+      android:text="          Las mejores "
+      android:textColor="@color/naranjadbz"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="562dp" />
+
+  <TextView
+      android:id="@+id/hamburguesas"
+      android:layout_width="235dp"
+      android:layout_height="29dp"
+      android:text="            Hamburguesas "
+      android:textColor="@android:color/holo_orange_dark"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="646dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

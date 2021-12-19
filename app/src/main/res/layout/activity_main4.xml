@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="313dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/hamburgesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Seleccion"
+                app:srcCompat="@drawable/hamburguesa" />
+
+            <ImageButton
+                android:id="@+id/bigHamburguesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Seleccion"
+                app:srcCompat="@drawable/big_hamburguesa" />
+
+            <ImageButton
+                android:id="@+id/megaHamburguesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Seleccion"
+                app:srcCompat="@drawable/mega_hamburguesa" />
+
+            <ImageButton
+                android:id="@+id/vegetarina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Seleccion"
+                app:srcCompat="@drawable/vegetariana" />
+
+            <ImageButton
+                android:id="@+id/complementos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Seleccion"
+                app:srcCompat="@drawable/complemento" />
+
+            <ImageButton
+                android:id="@+id/bebida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:onClick="Seleccion"
+                app:srcCompat="@drawable/bebidas" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="389dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="508dp"
+        android:text="Nuestros nuevos productos te sorprenderan echas  a tu  antojo Las Encontraras en el RETO3..... Ademas estamos extrenando nueva sucursal en yopal  te esperamos "
+        android:textColor="@color/naranjadbz"
+        android:textColorLink="@color/naranjadbz"
+        android:textIsSelectable="false"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="302dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="64dp"
+        android:text="Proximamente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
